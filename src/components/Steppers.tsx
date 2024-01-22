@@ -13,12 +13,12 @@ const Stepper: React.FC<StepperProps> = ({ steps, currentStep }) => {
           {index > 0 && (
             <div className="flex">
               <div
-                className={`h-[1px] w-6 flex-1 ${
+                className={`h-[1.25px] w-6 flex-1 ${
                   index - 1 < currentStep ? "bg-[#664DE5]" : "bg-gray-400"
                 }`}
               ></div>
               <div
-                className={`h- w-6 flex-1 ${
+                className={`h-[1.25px] w-6 flex-1 ${
                   index < currentStep ? "bg-[#664DE5]" : "bg-slate-400"
                 }`}
               ></div>
